@@ -22,7 +22,7 @@ import sys
 
 
 def join(func):
-    """Decorator so a returned sequence of characters is joined to a string."""
+    """Decorator that joins characters in a returned sequence into a string."""
     return lambda *args: ''.join(func(*args))
 
 
