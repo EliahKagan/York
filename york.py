@@ -62,14 +62,16 @@ def decrypt(alphabet, ciphertext):
     for ch in ciphertext:
         # Try to substitute for a lower-case letter.
         with contextlib.suppress(ValueError):
-            return string.ascii_lowercase[alphabet.index(ch)]
+            yield string.ascii_lowercase[alphabet.index(ch)]
+            continue
 
         # Try to substitute for an upper-case letter.
         with contextlib.suppress(ValueError):
-            return string.ascii_uppercase[alphabet.index(ch.lower())].upper()
+            yield string.ascii_uppercase[alphabet.index(ch.lower())].upper()
+            continue
 
         # Pass unsubstitutable letters through unchanged.
-        return ch
+        yield ch
 
 
 def read_ciphertext():
