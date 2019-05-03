@@ -4,7 +4,7 @@ york.py
 
 Decrypts Elma and Nathaniel York's private messages.
 
-(See _The Fated Sky_ by Mary Robinette Kowal.)
+(See _The Fated Sky_ by Mary Robinette Kowal, starting on p. 194.)
 
 Usage:
 
