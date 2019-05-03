@@ -49,11 +49,3 @@ def decrypt(alphabet, ciphertext):
 
         # Pass unsubstitutable letters through unchanged.
         return ch
-
-
-def read_ciphertext(path):
-    try:
-        with open(path) as file:
-            return file.read()
-    except IOError as e:
-        die(f'{e.filename}: {e.strerror}')
