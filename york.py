@@ -83,7 +83,7 @@ def read_ciphertext():
 
 
 def run():
-    """Decrypts stdin with the Ceasear cipher key given on the command line."""
+    """Decrypts stdin with the Caesar cipher key given on the command line."""
     alphabet = get_substitution_alphabet()
     print(f'Substitution alphabet:  {alphabet}', file=sys.stderr)
     print(file=sys.stderr)
