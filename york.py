@@ -13,7 +13,8 @@ Usage:
 Replace KEY with the Ceasar cipher text key found in the book (not the numbers
 that index Kipling -- maybe a future version will support that).
 
-Replace CIPHERTEXT with the encrypted message text.
+Replace CIPHERTEXT with the path to a file containing the encrypted message,
+or omit "< CIPHERTEXT" and otherwise supply the ciphertext on standard input.
 """
 
 import contextlib
