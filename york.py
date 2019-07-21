@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# york.py - Fun basic crypto exercise from _The Fated Sky_.
+
 """
 york.py
 
