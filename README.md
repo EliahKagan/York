@@ -10,7 +10,7 @@ worldwide. This software is distributed without any warranty.*
 this software. If not, see
 <http://creativecommons.org/publicdomain/zero/1.0/>.*
 
-This program decrypts the messages exchanged by the fictional characters ELma
+This program decrypts the messages exchanged by the fictional characters Elma
 York and Nathaniel York in *The Fated Sky* by Mary Robinette Kowal.
 
 See `york.py` for the code and instructions on how to run it.
