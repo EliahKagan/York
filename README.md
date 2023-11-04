@@ -1,4 +1,4 @@
-# York - a fun basic crypto exercise
+# York - a fun basic cryptography exercise
 
 *Written in 2019 by Eliah Kagan \<degeneracypressure@gmail.com\>.*
 
