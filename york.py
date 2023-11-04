@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# york.py - a fun basic crypto exercise
+# york.py - a fun basic cryptography exercise
 #
 # Written in 2019 by Eliah Kagan <degeneracypressure@gmail.com>.
 #
